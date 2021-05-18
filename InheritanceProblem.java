@@ -20,8 +20,8 @@ package com.java.programs;
 
         public static void main(String[] args) {
             A a = new B();
-            a.m1();
+            a.m1(); //m1 from B
 
-            System.out.println(a.i);
+            System.out.println(a.i); // 2
         }
     }
